@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "mvp-eleventy-bundle-debug",
+  "version": "1.0.0",
+  "description": "Testing an issue with bundles in Eleventy 11ty.js templates.",
+  "scripts": {
+    "build": "npx eleventy",
+    "debug": "DEBUG=* npx eleventy",
+    "dev": "npx eleventy --serve",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "common-tags": "^1.8.2"
+  }
+}

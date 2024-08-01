@@ -1,0 +1,47 @@
+
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Testing 11ty Bundle</title>
+        <style>
+          html {
+            box-sizing: border-box;
+          }
+
+          * {
+            box-sizing: border-box;
+          }
+  
+          body {
+            min-block-size: 100vh;
+          }
+        </style>
+        <style>/*__EleventyBundle:get:css:default:EleventyBundle__*/</style>
+        /*__EleventyBundle:get:cssWrapped:default:EleventyBundle__*/
+      </head>
+      <body>
+        <h1>Using Common Tags</h1>
+<p>
+  This page uses the common-tags package and wraps a new bundle in a style
+  element.
+</p>
+<p>
+  It has a style element in the head with a comment denoting a missing css
+  bundle.
+</p>
+<p>
+  The wrapped bundle does not get found and instead eleventy code is
+  injected as plain text.
+</p>
+        <ul>
+          <li><a href="/README/">/README/</a></li>
+<li><a href="/">/</a></li>
+<li><a href="/about/">/about/</a></li>
+<li><a href="/empty/">/empty/</a></li>
+<li><a href="/common-tags/">/common-tags/</a></li>
+        </ul>
+      </body>
+    </html>
+  
